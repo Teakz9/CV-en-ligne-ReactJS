@@ -1,0 +1,14 @@
+.navbar-nav{
+    background-color: #444;
+    padding: 20px;
+    margin: -8px;
+}
+
+.navbar-toggler{
+    background-color: #444;
+}
+
+.nav-link{
+    color: white;
+}
+
