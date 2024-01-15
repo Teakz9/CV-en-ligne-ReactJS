@@ -39,8 +39,10 @@ h2{
 }
 
 .propos-title{
+    margin-top: 3vw;
     margin-bottom: 10vw;
     padding-bottom: 3vw;
+    border-bottom: #0d6efd solid 3px;
 }
 
 .skills-title{
@@ -81,7 +83,13 @@ h2{
     display: flex;
     margin: auto;
     border-radius: 10px;
+    margin-top: 3vw;
 
+}
+
+a{
+    color: #eee;
+    text-decoration: none;
 }
 
 .w-90{
@@ -104,3 +112,32 @@ h2{
     background-color: rgb(66, 90, 167);
 }
 
+@media screen and (min-width: 768px){
+    .propos-title{
+        margin-bottom: 5vw;
+        padding-bottom: 1vw;
+        border-bottom: #0d6efd solid 3px;
+    }
+
+    .button-more{
+        background-color: #0d6efd;
+        border-radius: 5px;
+        border: none;
+        font: bold;
+        color: white;
+        font-size: 3vw;
+        width: 20vw;
+        margin-top: 30px;
+    }
+
+    .button-more:hover{
+        background-color: #eee;
+        color: black;
+        border-radius: 5px;
+        border: none;
+        font: bold;
+        font-size: 3vw;
+        width: 20vw;
+        margin-top: 30px;
+    }
+}
