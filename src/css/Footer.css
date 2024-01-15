@@ -1,10 +1,11 @@
 .footer{
+    width: 100%;
     background-color: #eee;
+    box-sizing: border-box;
 }
 
 .info{
     padding-top: 10vw;
-    margin-left: 3vw;
 }
 
 .Doe, .site-link, .last-real, .last-article{
@@ -14,8 +15,19 @@
     font-size: 5vw;
 }
 
-.coordonates, .pages-link, .real-link, .article-link{
+.coordonates{
     font-size: 4vw;
+} 
+
+.pages-link, .real-link, .article-link{
+    font-size: 4vw;
+    list-style-type: ">";
+    color: #0d6efd;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: black;
 }
 
 .copyright{
@@ -26,4 +38,68 @@
     padding-top: 2vw;
     padding-bottom: 2vw;
     font-weight: bold;
+}
+
+
+
+@media screen and (min-width: 768px)
+    {
+        .footer{
+            width: 100%;
+        }
+
+        .Doe, .site-link, .last-real, .last-article{
+            font-size: 3vw;
+        }
+
+        .coordonates, .pages-link, .real-link, .article-link{
+            font-size: 2vw;
+        }
+
+        .sm-logo{
+            width: 30px;
+            height: 30px;
+        }
+
+        .copyright{
+            background-color: #444;
+            color: #eee;
+            display: flex;
+            justify-content: center;
+            padding-top: 0.5vw;
+            padding-bottom: 0.5vw;
+            font-weight: bold;
+            margin-top: 3vw;
+        }
+}
+
+@media screen and (min-width: 1200px)
+    {
+        .footer{
+            width: 100%;
+        }
+
+        .Doe, .site-link, .last-real, .last-article{
+            font-size: 2vw;
+        }
+
+        .coordonates, .pages-link, .real-link, .article-link{
+            font-size: 1vw;
+        }
+
+        .sm-logo{
+            width: 40px;
+            height: 40px;
+        }
+
+        .copyright{
+            background-color: #444;
+            color: #eee;
+            display: flex;
+            justify-content: center;
+            padding-top: 0.5vw;
+            padding-bottom: 0.5vw;
+            font-weight: bold;
+            margin-top: 3vw;
+        }
 }
