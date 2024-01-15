@@ -29,22 +29,19 @@ const Nav = () => {
       >
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link to="/" className="nav-link">Accueil</Link>
+            <Link to="/" className="nav-link">ACCUEIL</Link>
           </li>
           <li className="nav-item">
-            <Link to="/realisations" className="nav-link">Réalisations</Link>
+            <Link to="/services" className="nav-link">SERVICES</Link>
           </li>
           <li className="nav-item">
-            <Link to="/blog" className="nav-link">Blog</Link>
+            <Link to="/realisations" className="nav-link">RÉALISATIONS</Link>
           </li>
           <li className="nav-item">
-            <Link to="/services" className="nav-link">Services</Link>
+            <Link to="/blog" className="nav-link">BLOG</Link>
           </li>
           <li className="nav-item">
-            <Link to="/contact" className="nav-link">Contact</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/mlegales" className="nav-link">Mentions Légales</Link>
+            <Link to="/contact" className="nav-link">ME CONTACTER</Link>
           </li>
         </ul>
       </div>
