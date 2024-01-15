@@ -8,7 +8,7 @@
 }
 
 .text{
-    margin-top: -50%;
+    margin-top: -50vw;
 
 }
 
@@ -26,9 +26,33 @@ h2{
     font-size: 4vw;
 }
 
+.a-propos{
+    margin-top: 20vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    box-shadow: 1px 0px 5px black;
+}
+
 .more{
     display: flex;
     justify-content: center;
+}
+
+.propos-title{
+    margin-bottom: 10vw;
+    padding-bottom: 3vw;
+}
+
+.skills-title{
+    margin-top: 5vw;
+}
+
+.skills-section{
+    margin-bottom: 20vw;
+}
+
+.footer{
+    margin-top: 40vw;
 }
 
 .button-more{
@@ -49,10 +73,6 @@ h2{
     font: bold;
     color: black;
     font-size: 4vw;
-}
-
-.a-propos{
-    margin-top: 50px;
 }
 
 .illustration{
@@ -83,5 +103,4 @@ h2{
 .w-50{
     background-color: rgb(66, 90, 167);
 }
-
 

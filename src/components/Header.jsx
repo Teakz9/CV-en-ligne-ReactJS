@@ -5,7 +5,7 @@ function Header () {
 
     return(
         <header>
-            <h1>JOHN DOE</h1>
+            <h1 className='page-title'>JOHN DOE</h1>
             <Nav/>
         </header>
     )

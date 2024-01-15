@@ -1,0 +1,29 @@
+.footer{
+    background-color: #eee;
+}
+
+.info{
+    padding-top: 10vw;
+    margin-left: 3vw;
+}
+
+.Doe, .site-link, .last-real, .last-article{
+    color: black;
+    display: flex;
+    justify-content: start;
+    font-size: 5vw;
+}
+
+.coordonates, .pages-link, .real-link, .article-link{
+    font-size: 4vw;
+}
+
+.copyright{
+    background-color: #444;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-weight: bold;
+}

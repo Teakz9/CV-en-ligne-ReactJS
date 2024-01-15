@@ -9,7 +9,7 @@ function Accueil() {
         <div className='accueil'>
                 <Header/>
 
-                <main>
+                <main className='accueil-content'>
                         <img src="../public/assets/images/imagefond.avif" alt="Personne qui fait du codage sur un ordinateur avec une tasse de café" className='img-fluid bg-pic'/>
                     <div className='text'>    
                         <h1>Bonjour, je suis</h1>
@@ -22,13 +22,14 @@ function Accueil() {
                     
                     <section className='a-propos'>
                         <div className='propos-content'>
-                            <h3>À propos</h3>
-                            <p>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'intégrateur-développeur web au CEF. Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du développement web.</p>
-                            <p>Basé à Lyon, je suis en alternance au sein d'une agence digitale pour consolider ma formation de développeur web full stack.</p>
+                            <h3 className='propos-title'>À propos</h3> 
+                            <p>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'<strong>intégrateur-développeur web</strong> au CEF. Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web</strong>.</p>
+                            <p>Basé à Lyon, je suis en alternance au sein d'une agence digitale pour consolider ma formation de <strong>développeur web full stack</strong>.</p>
                             <p>J'accord une attention particulière à la quallité du code que j'écris et je respecte les bonnes pratiques du web.</p>
                         </div>
                             <img src="../public/assets/images/illustration.jpg" alt="Homme travaillant devant un ordinateur sur un bureau en bois" className='img-fluid illustration'/>
-                            <h4>Mes compétences</h4>
+                        <div className='skills-section'>   
+                            <h4 className='skills-title'>Mes compétences</h4>
 
                             <p>HTML 90%</p>
                             <div className='progress'>
@@ -54,6 +55,7 @@ function Accueil() {
                             <div className='progress'>
                                 <div className='progress-bar w-50' role='progressbar' style={{width: '50%'}} aria-valuenow={50} aria-valuemin={0} aria-valuemax={100}></div>
                             </div>
+                        </div> 
                     </section>
                 </main>
 

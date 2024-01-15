@@ -4,10 +4,11 @@ header{
     justify-content: space-between;
 }
 
-h1{
+.page-title{
     color: #eee;
     display: flex;
-    margin-left: 24px;
+    justify-content: center;
+    margin-left: 1vw;
     margin-top: 10px;
 }
 
