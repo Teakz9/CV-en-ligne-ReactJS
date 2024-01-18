@@ -1,0 +1,100 @@
+.services-title{
+    color: black;
+}
+
+.services-offer{
+    color: black;
+}
+
+.service-content{
+    text-align: center;
+}
+
+.uxdesign-section, .dev-section, .seo-section{
+    box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.25) ;
+    margin: 10vw auto 10vw;
+    border-radius: 10px;
+    padding: 10vw 10vw;
+    text-align: center;
+}
+
+.services-intro{
+    text-align: center;
+}
+
+.subtitles-services{
+    font-size: 4vw;
+}
+
+.section-logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+}
+
+.banner{
+    width: 100%;
+    margin-bottom: 5vw;
+}
+
+.blue-line{
+    height: 4px;
+    background-color: #0d6efd;
+    width: 30%;
+    margin:  auto;
+
+}
+
+@media screen and (max-width: 768px){
+    .services-title{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .subtitles-services{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .uxdesign-section, .dev-section, .seo-section{
+        box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.25) ;
+        margin: 10vw auto 10vw;
+        border-radius: 10px;
+        padding: 5vw 5vw;
+        flex: 0 0 30%;
+    }
+
+    .services-offer{
+        color: black;
+        font-size: 3vw;
+    }
+
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .uxdesign-section, .dev-section, .seo-section{
+        box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.25) ;
+        margin: 10vw auto 10vw;
+        border-radius: 10px;
+        padding: 5vw 5vw;
+        flex: 0 0 30%;
+    }
+
+    .services-offer{
+        color: black;
+        font-size: 2vw;
+    }
+
+    .row{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
