@@ -44,9 +44,15 @@ function Footer () {
                     <div className="col-sm-12 col-md-6 col-xl-3">
                         <h2 className="last-real">Mes dernières réalisations</h2>
                         <ul>
-                            <li className="real-link">Fresh food</li>
-                            <li className="real-link">Restaurant Akira</li>
-                            <li className="real-link">Espace bien-être</li>
+                            <li className="real-link">
+                            <Link to="/realisations" className="footer-link">Fresh Food</Link>
+                            </li>
+                            <li className="real-link">
+                            <Link to="/realisations" className="footer-link">Restaurant Akira</Link>
+                            </li>
+                            <li className="real-link">
+                            <Link to="/realisations" className="footer-link">Espace bien-être</Link>
+                            </li>
                         </ul>
                     </div>
                     <div className="col-sm-12 col-md-6 col-xl-3">

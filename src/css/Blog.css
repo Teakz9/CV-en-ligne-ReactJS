@@ -1,37 +1,29 @@
-.realisations-title{
+.blog-title{
     color: black;
 }
 
-.realisations-intro{
+.blog-intro{
     text-align: center;
 }
 
-.subtitles-realisations{
+.subtitles-blog{
     font-size: 4vw;
 }
 
-.card{
+.blog-card{
     margin: auto;
     margin-top: 10vw;
-    text-align: center;
+    text-align: start;
 }
 
-.card-title{
-    font-size: 5vw;
-}
-
-.card-text, .card-footer{
-    font-size: 3vw;
-}
-
-.realisations-img{
+.blog-img{
     width: 100%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
 @media screen and (max-width: 768px){
-    .subtitles-realisations{
+    .subtitles-blog{
         margin-left: 20vw;
         margin-right: 20vw;
     }

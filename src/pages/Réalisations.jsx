@@ -4,7 +4,6 @@ import Footer from '../components/Footer';
 
 import '../css/Réalisations.css'
 
-
 function Réalisations() {
 
     return(
@@ -18,7 +17,7 @@ function Réalisations() {
                 </div>
                 <div className='blue-line'></div>
 
-                <div className='container'>
+                <div className='realisations-list container'>
                     <div className='row'>
                         <div className='col-sm-12 col-md-8 col-xl-4'>
                             <section className='FreshFood card' style={{width: "18rem",}}>
