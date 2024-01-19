@@ -12,7 +12,7 @@ function Services() {
                 <main className='services-content'>
                     <div>
                         <div className='services-intro'>
-                            <img src="../public/assets/images/banner.jpg" alt="" className='banner'/>
+                            <img src="../public/assets/images/banner.jpg" alt="bannière représentant un flux d'informations" className='banner'/>
                             <h1 className='services-title'>MON OFFRE DE SERVICES</h1>
                             <p className='subtitles-services'>Voici les prestations sur lesquelles je peux intervenir.</p>
                         </div>

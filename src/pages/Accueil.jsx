@@ -36,27 +36,27 @@ function Accueil() {
 
                                     <p>HTML 90%</p>
                                     <div className='progress'>
-                                        <div className='progress-bar w-90' role='progressbar' style={{width: '90%'}} aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
+                                        <div className='progress-bar w-90 p1' role='progressbar' style={{width: '90%'}} aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
                                     </div>
 
                                     <p>CSS3 80%</p>
                                     <div className='progress'>
-                                        <div className='progress-bar w-80' role='progressbar' style={{width: '80%'}} aria-valuenow={80} aria-valuemin={0} aria-valuemax={100}></div>
+                                        <div className='progress-bar w-80 p2' role='progressbar' style={{width: '80%'}} aria-valuenow={80} aria-valuemin={0} aria-valuemax={100}></div>
                                     </div>
 
                                     <p>JAVASCRIPT 70%</p>
                                     <div className='progress'>
-                                        <div className='progress-bar w-70' role='progressbar' style={{width: '70%'}} aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
+                                        <div className='progress-bar w-70 p3' role='progressbar' style={{width: '70%'}} aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
                                     </div>
 
                                     <p>PHP 60%</p>
                                     <div className='progress'>
-                                        <div className='progress-bar w-60' role='progressbar' style={{width: '60%'}} aria-valuenow={60} aria-valuemin={0} aria-valuemax={100}></div>
+                                        <div className='progress-bar w-60 p4' role='progressbar' style={{width: '60%'}} aria-valuenow={60} aria-valuemin={0} aria-valuemax={100}></div>
                                     </div>
 
                                     <p>REACT 50%</p>
                                     <div className='progress'>
-                                        <div className='progress-bar w-50' role='progressbar' style={{width: '50%'}} aria-valuenow={50} aria-valuemin={0} aria-valuemax={100}></div>
+                                        <div className='progress-bar w-50 p5' role='progressbar' style={{width: '50%'}} aria-valuenow={50} aria-valuemin={0} aria-valuemax={100}></div>
                                     </div>
                                 </div> 
                             </div>

@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+}
+
+.realisations-title{
+    color: black;
+}
+
+.realisations-intro{
+    text-align: center;
+}
+
+.subtitles-realisations{
+    font-size: 4vw;
+}
+
+.card{
+    margin: auto;
+    margin-top: 10vw;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 5vw;
+}
+
+.card-text, .card-footer{
+    font-size: 3vw;
+}
+
+.realisations-img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .subtitles-realisations{
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .card-title{
+        font-size: 4vw;
+    }
+    
+    .card-text, .card-footer{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .card-title{
+        font-size: 3vw;
+    }
+    
+    .card-text, .card-footer{
+        font-size: 1vw;
+    }
+}

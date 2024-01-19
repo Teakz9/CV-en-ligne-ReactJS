@@ -97,4 +97,12 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .services-title{
+        font-size: 5vw;
+    }
+
+    .subtitles-services{
+        font-size: 2vw;
+    }
 }
