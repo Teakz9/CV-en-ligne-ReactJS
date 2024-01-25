@@ -13,7 +13,7 @@ function Réalisations() {
                 <div className='realisations-intro'>
                     <img src="../public/assets/images/banner.jpg" alt="bannière représentant un flux d'informations" className='banner'/>
                     <h1 className='realisations-title'>PORTFOLIO</h1>
-                    <p className='subtitles-realisations'>Voici quelques-unes de mes réalisations</p>
+                    <p className='subtitles-realisations'>Voici quelques-unes de mes réalisations.</p>
                 </div>
                 <div className='blue-line'></div>
 

@@ -1,27 +1,23 @@
-.bg-pic{
-    width: 100%;
-    height: auto;
-    display: block;
+.accueil-intro{
+    background-color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.3);
+    background-image: url(../public/assets/images/image-de-fond.jpg);
+    background-size: cover;
+}
+
+.accueil-title{
     margin: auto;
-    background-color: black, 0.3;
-
-}
-
-.text{
-    margin-top: -50vw;
-
-}
-
-h1{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     color: white;
     font-size: 8vw;
+    padding-top: 20vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-weight: 600;
 }
 
-h2{
-    display: flex;
-    justify-content: center;
+.accueil-subtitle{
+    margin: auto;
+    text-align: center;
     color: white;
     font-size: 4vw;
 }
@@ -31,11 +27,13 @@ h2{
     margin-left: 10vw;
     margin-right: 10vw;
     box-shadow: 1px 0px 5px black;
+    margin-bottom: 20vw;
 }
 
 .more{
     display: flex;
     justify-content: center;
+    padding-bottom: 20vw;
 }
 
 .propos-title{
@@ -43,6 +41,7 @@ h2{
     margin-bottom: 10vw;
     padding-bottom: 3vw;
     border-bottom: #0d6efd solid 3px;
+    font-weight: 600;
 }
 
 .skills-title{
@@ -53,19 +52,17 @@ h2{
     margin-bottom: 20vw;
 }
 
-.footer{
-    margin-top: 40vw;
-}
-
 .button-more{
     background-color: #0d6efd;
     border-radius: 5px;
     border: none;
     font: bold;
     color: white;
-    font-size: 4vw;
+    font-size: 3vw;
     width: 30vw;
     margin-top: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .button-more:hover{
@@ -74,7 +71,9 @@ h2{
     border: none;
     font: bold;
     color: black;
-    font-size: 4vw;
+    font-size: 3vw;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .illustration{
@@ -113,6 +112,17 @@ a{
 }
 
 @media screen and (min-width: 768px){
+    .accueil-title{
+        font-size: 7vw;
+    }
+    
+    .accueil-subtitle{
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 3vw;
+    }
+
     .propos-title{
         margin-bottom: 5vw;
         padding-bottom: 1vw;
@@ -125,9 +135,11 @@ a{
         border: none;
         font: bold;
         color: white;
-        font-size: 3vw;
+        font-size: 2vw;
         width: 20vw;
         margin-top: 30px;
+        padding-top: 4px;
+        padding-bottom: 4px;
     }
 
     .button-more:hover{
@@ -136,8 +148,48 @@ a{
         border-radius: 5px;
         border: none;
         font: bold;
-        font-size: 3vw;
+        font-size: 2vw;
         width: 20vw;
         margin-top: 30px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .accueil-title{
+        font-size: 6vw;
+    }
+    
+    .propos-title{
+        margin-bottom: 5vw;
+        padding-bottom: 1vw;
+        border-bottom: #0d6efd solid 3px;
+    }
+
+    .button-more{
+        background-color: #0d6efd;
+        border-radius: 5px;
+        border: none;
+        font: bold;
+        color: white;
+        font-size: 1.3vw;
+        width: 20vw;
+        margin-top: 30px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .button-more:hover{
+        background-color: #eee;
+        color: black;
+        border-radius: 5px;
+        border: none;
+        font: bold;
+        font-size: 1.3vw;
+        width: 20vw;
+        margin-top: 30px;
+        padding-top: 6px;
+        padding-bottom: 6px;
     }
 }

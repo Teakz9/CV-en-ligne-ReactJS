@@ -12,8 +12,8 @@ function Blog() {
             <main>
                 <div className='blog-intro'>
                     <img src="../public/assets/images/banner.jpg" alt="bannière représentant un flux d'informations" className='banner'/>
-                    <h1 className='blog-title'>PORTFOLIO</h1>
-                    <p className='subtitles-blog'>Voici quelques-unes de mes réalisations</p>
+                    <h1 className='blog-title'>BLOG</h1>
+                    <p className='subtitles-blog'>Retrouvez ici quelquess articles sur le développement web.</p>
                 </div>
                 <div className='blue-line'></div>
 

@@ -4,13 +4,15 @@ header{
     justify-content: space-between;
 }
 
-.page-title{
+.username{
     color: #eee;
     display: flex;
     justify-content: center;
     margin-left: 1vw;
     margin-top: 10px;
     font-size: 7vw;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 @media screen and (min-width: 768px){
@@ -22,6 +24,17 @@ header{
         margin-top: 10px;
         font-size: 5vw;
     }
+
+    .username{
+        color: #eee;
+        display: flex;
+        justify-content: center;
+        margin-left: 1vw;
+        margin-top: 10px;
+        font-size: 5vw;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -32,6 +45,17 @@ header{
         margin-left: 1vw;
         margin-top: 10px;
         font-size: 4vw;
+    }
+
+    .username{
+        color: #eee;
+        display: flex;
+        justify-content: center;
+        margin-left: 1vw;
+        margin-top: 10px;
+        font-size: 4vw;
+        text-transform: uppercase;
+        font-weight: 600;
     }
 }
 

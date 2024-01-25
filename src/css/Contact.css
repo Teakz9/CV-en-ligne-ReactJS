@@ -1,0 +1,165 @@
+.contact-intro{
+    text-align: center;
+}
+
+.contact-title{
+    color: black;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-weight: 600;
+}
+
+.subtitles-contact-page{
+    font-size: 4vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.fond-bleu{
+    background-image: url(../public/assets/images/fondbleu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 105, 255, 0.5);
+    padding-top: 2.5vw;
+    padding-bottom: 20vw;
+}
+
+.contact-content{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 10vw;
+}
+
+.contact-subtitle{
+    text-align: left;
+    margin-top: 10vw;
+    margin-left: 15vw;
+    margin-right: 20vw;
+    font-weight: 600;
+}
+
+.form-element{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.form-case{
+    width: 65%;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    text-align: start;
+    padding-left: 5px;
+    font-size: 3vw;
+}
+
+.btn-form{
+    display: block;
+    margin: 0  auto;
+}
+
+.blue-line-title{
+    height: 2px;
+    background-color: #0d6efd;
+    width: 65%;
+    margin:  auto;
+    margin-bottom: 5vw;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10vw;
+}
+
+.adress, .phone{
+    margin-left: 15vw;
+    margin-right: 20vw;
+    font-size: 3vw;
+}
+
+.mini-map{
+    height: 300px;
+}
+
+@media screen and (min-width: 768px){
+    .contact-title{
+        color: black;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        font-weight: 600;
+        font-size: 3vw;
+    }
+    
+    .subtitles-contact-page{
+        font-size: 2.5vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .form-case{
+        width: 65%;
+        border: 2px solid #eee;
+        border-radius: 5px;
+        text-align: start;
+        padding-left: 5px;
+        font-size: 2vw;
+    }
+
+    .contact-subtitle{
+        text-align: left;
+        margin-top: 10vw;
+        margin-left: 7vw;
+        margin-right: 6vw;
+        font-weight: 600;
+        font-size: 3vw;
+    }
+
+    .adress, .phone{
+        margin-left: 7vw;
+        margin-right: 6vw;
+        font-size: 2vw;
+    }
+
+    .mini-map{
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .subtitles-contact-page{
+        font-size: 1.5vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .form-case{
+        width: 65%;
+        border: 2px solid #eee;
+        border-radius: 5px;
+        text-align: start;
+        padding-left: 5px;
+        font-size: 1vw;
+    }
+
+    .contact-subtitle{
+        text-align: left;
+        margin-top: 10vw;
+        margin-left: 6vw;
+        margin-right: 5vw;
+        font-weight: 600;
+        font-size: 2vw;
+    }
+
+    .adress, .phone{
+        margin-left: 7vw;
+        margin-right: 6vw;
+        font-size: 1vw;
+    }
+
+    .mini-map{
+        height: 300px;
+    }
+}

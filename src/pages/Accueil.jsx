@@ -10,14 +10,14 @@ function Accueil() {
                 <Header/>
 
                 <main className='accueil-content'>
-                        <img src="../public/assets/images/imagefond.avif" alt="Personne qui fait du codage sur un ordinateur avec une tasse de café" className='img-fluid bg-pic'/>
-                    <div className='text'>    
-                        <h1>Bonjour, je suis</h1>
-                            <h1>John Doe</h1>
-                        <h2>Développeur web full stack</h2>                     
-                    </div>
-                    <div className='more'>
-                    <button className='button-more'><a href="#to-propos">En savoir plus</a></button>
+                    <div className='accueil-intro'>
+                        <div className='text'>    
+                            <h1 className='accueil-title'>Bonjour, je suis John Doe</h1>
+                            <h2 className='accueil-subtitle'>Développeur web full stack</h2>                     
+                        </div>
+                        <div className='more'>
+                        <button className='button-more'><a href="#to-propos">En savoir plus</a></button>
+                        </div>
                     </div>
                     
                     <section className='a-propos container'>
@@ -63,7 +63,6 @@ function Accueil() {
                         </div>
                     </section>
                 </main>
-
                 <Footer/>
         </div>
     );

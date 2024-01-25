@@ -72,6 +72,14 @@
         font-size: 3vw;
     }
 
+    .services-title{
+        font-size: 4vw;
+    }
+
+    .subtitles-services{
+        font-size: 2.5vw;
+    }
+
     .row{
         display: flex;
         justify-content: space-between;

@@ -1,4 +1,5 @@
 import React from "react";
+import GitHubProfile from "./GitHubProfile";
 import { Link } from "react-router-dom";
 import '../css/Footer.css';
 

@@ -1,11 +1,12 @@
 import Nav from './Nav.jsx';
+import GitHubProfile from './GitHubProfile.jsx';
 import '../css/Header.css';
 
 function Header () {
 
     return(
         <header>
-            <h1 className='page-title'>JOHN DOE</h1>
+            <GitHubProfile/>
             <Nav/>
         </header>
     )

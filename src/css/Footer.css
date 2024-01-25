@@ -1,7 +1,5 @@
 .footer{
-    width: 100%;
     background-color: #eee;
-    box-sizing: border-box;
 }
 
 .info{
@@ -10,7 +8,6 @@
 
 .Doe, .site-link, .last-real, .last-article{
     color: black;
-    display: flex;
     justify-content: start;
     font-size: 5vw;
 }
