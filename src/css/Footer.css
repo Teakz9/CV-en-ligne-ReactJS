@@ -3,7 +3,7 @@
 }
 
 .info{
-    padding-top: 10vw;
+    padding-top: 5vw;
 }
 
 .Doe, .site-link, .last-real, .last-article{
@@ -45,6 +45,10 @@
             width: 100%;
         }
 
+        .info{
+            padding-top: 4vw;
+        }
+
         .Doe, .site-link, .last-real, .last-article{
             font-size: 3vw;
         }
@@ -74,6 +78,10 @@
     {
         .footer{
             width: 100%;
+        }
+
+        .info{
+            padding-top: 3vw;
         }
 
         .Doe, .site-link, .last-real, .last-article{

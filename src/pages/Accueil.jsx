@@ -16,7 +16,7 @@ function Accueil() {
                             <h2 className='accueil-subtitle'>Développeur web full stack</h2>                     
                         </div>
                         <div className='more'>
-                        <button className='button-more'><a href="#to-propos">En savoir plus</a></button>
+                        <button className='button-more'><a href="#to-propos" className='more-link'>En savoir plus</a></button>
                         </div>
                     </div>
                     
