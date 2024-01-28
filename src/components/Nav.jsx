@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import '../css/Nav.css'
 
 const Nav = () => {
@@ -7,6 +7,8 @@ const Nav = () => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+
+  const location = useLocation();
 
   return (
     <nav className="navbar navbar-expand-lg">
@@ -29,7 +31,7 @@ const Nav = () => {
       >
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link to="/" className="nav-link">ACCUEIL</Link>
+            <Link to="/" className="nav-link" >ACCUEIL</Link>
           </li>
           <li className="nav-item">
             <Link to="/services" className="nav-link">SERVICES</Link>

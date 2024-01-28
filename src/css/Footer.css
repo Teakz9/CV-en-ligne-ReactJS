@@ -16,7 +16,7 @@
     font-size: 4vw;
 } 
 
-.pages-link, .real-link, .article-link{
+.pages-link, .real-link, .blog-link{
     font-size: 4vw;
     list-style-type: ">";
     color: #0d6efd;
@@ -37,6 +37,37 @@
     font-weight: bold;
 }
 
+.button-top{
+    background-color: #0d6efd;
+    border-radius: 5px;
+    border: none;
+    font: bold;
+    color: white;
+    font-size: 1vw;
+    width: 5vw;
+    margin-top: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.button-top:active{
+    background-color: #298eff;
+    border-radius: 5px;
+    border: none;
+    font: bold;
+    color: white;
+    font-size: 1vw;
+    width: 5vw;
+    margin-top: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.button-center{
+    display: flex;
+    justify-content: center;
+}
+
 
 
 @media screen and (min-width: 768px)
@@ -53,7 +84,7 @@
             font-size: 3vw;
         }
 
-        .coordonates, .pages-link, .real-link, .article-link{
+        .coordonates, .pages-link, .real-link, .blog-link{
             font-size: 2vw;
         }
 
@@ -88,7 +119,7 @@
             font-size: 2vw;
         }
 
-        .coordonates, .pages-link, .real-link, .article-link{
+        .coordonates, .pages-link, .real-link, .blog-link{
             font-size: 1vw;
         }
 

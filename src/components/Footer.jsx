@@ -1,10 +1,32 @@
-import React from "react";
-import GitHubProfile from "./GitHubProfile";
+import React, {useState, useEffect} from "react";
 import { Link } from "react-router-dom";
 import '../css/Footer.css';
 
-
 function Footer () {
+
+    const [showButton, setShowButton] = useState(false);
+
+    const handleScroll = () => {
+        if (window.scrollY > 100) {
+            setShowButton(true);
+        } else {
+            setShowButton(false);
+        }
+    };
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     return(
         <div className="footer">
@@ -18,9 +40,9 @@ function Footer () {
                             <p>Téléphone : 06 20 30 40 50</p>
                         </div>
 
-                        <img src="../public/assets/images/logo-github.png" alt="Le logo de GitHub" className="sm-logo"/>
-                        <img src="../public/assets/images/logo-twitter.png" alt="Le logo de twitter" className="sm-logo" />
-                        <img src="../public/assets/images/logo-linkedin.png" alt="Le logo de LinkedIn" className="sm-logo" />
+                        <a href="https://github.com/" target="_blank"><img src="../public/assets/images/logo-github.png" alt="Le logo de GitHub" className="sm-logo"/></a>
+                        <a href="https://twitter.com/" target="_blank"><img src="../public/assets/images/logo-twitter.png" alt="Le logo de Twitter" className="sm-logo" /></a>
+                        <a href="https://fr.linkedin.com/" target="_blank"><img src="../public/assets/images/logo-linkedin.png" alt="Le logo de LinkedIn" className="sm-logo" /></a>
                     </div>
                     <div className="col-sm-12 col-md-6 col-xl-3">
                         <h2 className="site-link">Liens utiles</h2>
@@ -46,27 +68,38 @@ function Footer () {
                         <h2 className="last-real">Mes dernières réalisations</h2>
                         <ul>
                             <li className="real-link">
-                            <Link to="/realisations" className="footer-link">Fresh Food</Link>
+                                <Link to="/realisations" className="footer-link">Fresh Food</Link>
                             </li>
                             <li className="real-link">
-                            <Link to="/realisations" className="footer-link">Restaurant Akira</Link>
+                                <Link to="/realisations" className="footer-link">Restaurant Akira</Link>
                             </li>
                             <li className="real-link">
-                            <Link to="/realisations" className="footer-link">Espace bien-être</Link>
+                                <Link to="/realisations" className="footer-link">Espace bien-être</Link>
                             </li>
                         </ul>
                     </div>
                     <div className="col-sm-12 col-md-6 col-xl-3">
                         <h2 className="last-article">Mes derniers articles</h2>
                         <ul>
-                            <li className="article-link">Coder son site en HTML/CSS</li>
-                            <li className="article-link">Vendre ses produits sur le web</li>
-                            <li className="article-link">Se positionner sur Google</li>
+                            <li className="blog-link">
+                                <Link to="/realisations" className="footer-link">Coder son site en HTML/CSS</Link>
+                            </li>
+                            <li className="blog-link">
+                                <Link to="/realisations" className="footer-link">Vendre ses produits sur le web</Link>
+                            </li>
+                            <li className="blog-link">
+                                <Link to="/realisations" className="footer-link">Se positionner sur Google</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 </section>
                 <p className="copyright">© Designed by John Doe</p>
+                <div className="button-center">
+                {showButton && (
+                <button className='button-top' onClick={scrollToTop}>Remonter</button>
+                )}
+                </div>
             </div>
     )
   }

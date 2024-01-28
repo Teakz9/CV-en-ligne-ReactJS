@@ -1,6 +1,6 @@
 .accueil-intro{
-    background-color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.3);
-    background-image: url(../public/assets/images/image-de-fond.jpg);
+    background: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.3);
+    background-image: url(../public/assets/images/image-de-fond2.jpg);
     background-size: cover;
 }
 

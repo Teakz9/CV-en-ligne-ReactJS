@@ -10,6 +10,10 @@
 }
 
 .nav-link{
+    color: rgba(255, 255, 255, 0.534);
+}
+
+.nav-link:active{
     color: white;
 }
 
@@ -25,6 +29,10 @@
     }
     
     .nav-link{
+        color: rgba(255, 255, 255, 0.534);
+    }
+
+    .nav-link:active{
         color: white;
     }
 }
@@ -41,12 +49,16 @@
     }
     
     .nav-link{
-        color: white;
+        color: rgba(255, 255, 255, 0.534);
     }
 
     .nav-link:hover{
-        color: #0d6efd;
+        color: rgba(255, 255, 255, 0.8);
         background-color: rgba(red, rgb(255, 1, 1), rgb(0, 0, 255), 1);
+    }
+
+    .nav-link:active{
+        color: white;
     }
 
     .border-right{
